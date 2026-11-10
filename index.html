@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gavin Chang · Violin &amp; Viola</title>
+    <title>Gavin Chang · Viola &amp; Violin</title>
     <meta
       name="description"
       content="Gavin Chang is a violist and violinist from the San Francisco Bay Area, playing with the Palo Alto Chamber Orchestra (PACO). Performances, videos, and contact."
@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://gavinchang.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Gavin Chang" />
-    <meta property="og:title" content="Gavin Chang · Violin &amp; Viola" />
+    <meta property="og:title" content="Gavin Chang · Viola &amp; Violin" />
     <meta property="og:description" content="Violist and violinist from the San Francisco Bay Area, playing with the Palo Alto Chamber Orchestra." />
     <meta property="og:url" content="https://gavinchang.com/" />
     <meta property="og:image" content="https://gavinchang.com/assets/og.jpg" />
@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-    <meta name="theme-color" content="#FBF6F2" />
+    <meta name="theme-color" content="#11100e" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -36,17 +36,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Jost:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header on-dark">
       <div class="inner">
         <a class="wordmark" href="./">Gavin Chang</a>
-        <nav>
+        <nav aria-label="Main">
           <a href="#listen">Listen</a>
           <a href="#gallery">Gallery</a>
           <a href="#about">About</a>
@@ -58,54 +58,42 @@
 
     <main id="main">
       <div class="hero">
-        <div>
-          <div class="label">Violin &amp; Viola · San Francisco Bay Area</div>
-          <h1>Gavin<br /><em>Chang</em></h1>
-          <p class="lede">
-            Chamber and orchestral musician, finding the voice in the middle of
-            the music.
-          </p>
-        </div>
         <figure>
           <img
             src="assets/gavin-hero.jpg"
             alt="Gavin Chang playing viola on stage"
-            width="1600"
-            height="1495"
+            width="1800"
+            height="1682"
             fetchpriority="high"
           />
         </figure>
+        <div class="intro">
+          <h1>Gavin Chang</h1>
+          <p class="role">Viola and violin<br />San Francisco Bay Area</p>
+          <p class="cta">
+            <a href="#listen">Watch</a>
+            <a href="events.html">Upcoming concerts</a>
+          </p>
+        </div>
       </div>
 
-      <section id="listen" class="alt">
+      <section id="listen" class="dark">
         <div class="wrap">
-          <div class="section-head"><h2>Listen</h2></div>
-          <div class="videos">
-            <div>
-              <div class="video">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/MC1H6GNTEVY?rel=0"
-                  title="Ravel String Quartet in F Major, PACO Sinfonia"
-                  loading="lazy"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allow="
-                    accelerometer;
-                    autoplay;
-                    clipboard-write;
-                    encrypted-media;
-                    gyroscope;
-                    picture-in-picture;
-                    web-share;
-                  "
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div class="video-meta">
-                <h3>Ravel: String Quartet in F Major, M. 35</h3>
-                <span class="label">Chamber · PACO Sinfonia · March 2026</span>
-              </div>
-            </div>
+          <h2>Listen</h2>
+          <div class="video">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/MC1H6GNTEVY?rel=0"
+              title="Ravel String Quartet in F Major, PACO Sinfonia"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
+          <p class="caption">
+            <strong>Ravel, String Quartet in F Major, M. 35</strong><br />
+            PACO Sinfonia chamber ensemble, March 2026
+          </p>
           <p class="more">
             More concert videos are linked from the
             <a href="events.html">Events</a> page.
@@ -113,41 +101,41 @@
         </div>
       </section>
 
-      <section id="gallery">
+      <section id="gallery" class="dark">
         <div class="wrap">
-          <div class="section-head"><h2>Gallery</h2></div>
+          <h2>Gallery</h2>
           <div class="gallery">
             <figure class="wide">
-              <img src="assets/gallery/quintet-stage.jpg" alt="Gavin playing viola in the Mendelssohn String Quintet on stage" loading="lazy" />
-              <figcaption class="label">Mendelssohn String Quintet, Op. 18 · Cubberley Theatre, Nov 2026</figcaption>
+              <img src="assets/gallery/quintet-stage.jpg" alt="Gavin playing viola in the Mendelssohn String Quintet on stage" width="1800" height="1200" loading="lazy" />
+              <figcaption class="caption">Mendelssohn, String Quintet, Op. 18. Cubberley Theatre, November 2026</figcaption>
             </figure>
             <figure>
-              <img src="assets/gallery/orchestra.jpg" alt="Gavin playing viola in the Senior PACO orchestra" loading="lazy" />
-              <figcaption class="label">Senior PACO · Nov 2026</figcaption>
+              <img src="assets/gallery/orchestra.jpg" alt="Gavin playing viola in the Senior PACO orchestra" width="1600" height="1067" loading="lazy" />
+              <figcaption class="caption">Senior PACO, November 2026</figcaption>
             </figure>
             <figure>
-              <img src="assets/gallery/quintet-close.jpg" alt="Gavin performing with his chamber ensemble" loading="lazy" />
-              <figcaption class="label">Mendelssohn Quintet · Nov 2026</figcaption>
+              <img src="assets/gallery/quintet-close.jpg" alt="Gavin performing with his chamber ensemble" width="1600" height="1067" loading="lazy" />
+              <figcaption class="caption">Mendelssohn Quintet, November 2026</figcaption>
             </figure>
             <figure>
-              <img src="assets/gallery/rehearsal.jpg" alt="Gavin smiling while playing viola in rehearsal" loading="lazy" />
-              <figcaption class="label">Rehearsal · Nov 2026</figcaption>
+              <img src="assets/gallery/rehearsal.jpg" alt="Gavin smiling while playing viola in rehearsal" width="1600" height="1067" loading="lazy" />
+              <figcaption class="caption">In rehearsal, November 2026</figcaption>
             </figure>
             <figure>
-              <img src="assets/gallery/perf-2.jpg" alt="Gavin with his coach and quartet partner after a concert" loading="lazy" />
-              <figcaption class="label">After the Sinfonia concert · March 2026</figcaption>
+              <img src="assets/gallery/perf-2.jpg" alt="Gavin with his coach and quartet partner after a concert" width="1600" height="1011" loading="lazy" />
+              <figcaption class="caption">After the Sinfonia concert, March 2026</figcaption>
             </figure>
             <figure class="wide">
-              <img src="assets/gallery/perf-1.jpg" alt="Gavin performing in a string quartet on stage" loading="lazy" />
-              <figcaption class="label">Ravel String Quartet · March 2026</figcaption>
+              <img src="assets/gallery/perf-1.jpg" alt="Gavin performing in a string quartet on stage" width="1800" height="1200" loading="lazy" />
+              <figcaption class="caption">Ravel, String Quartet in F Major. Cubberley Theatre, March 2026</figcaption>
             </figure>
           </div>
         </div>
       </section>
 
-      <section id="about" class="alt">
+      <section id="about">
         <div class="wrap">
-          <div class="section-head"><h2>About</h2></div>
+          <h2>About</h2>
           <div class="about">
             <div class="bio">
               <p>
@@ -177,46 +165,22 @@
                 opinionated, food critic.
               </p>
             </div>
-            <ul class="highlights">
+            <ul class="facts">
               <li>
-                <strong
-                  ><a
-                    href="https://www.pacomusic.org/programs/our-orchestras#h.ri6qme455446"
-                    target="_blank"
-                    rel="noopener"
-                    >PACO Senior Orchestra</a
-                  ></strong
-                ><span>Viola · 2026–present</span>
+                <strong><a href="https://www.pacomusic.org/programs/our-orchestras#h.ri6qme455446" target="_blank" rel="noopener">PACO Senior Orchestra</a></strong>
+                <span>Viola, 2026 to present</span>
               </li>
               <li>
-                <strong
-                  ><a
-                    href="https://www.pacomusic.org/programs/our-orchestras#h.qbkvhbnyuhsc"
-                    target="_blank"
-                    rel="noopener"
-                    >PACO Sinfonia Orchestra</a
-                  ></strong
-                ><span>Violin · 2025–26 · Concertmaster, March 2026</span>
+                <strong><a href="https://www.pacomusic.org/programs/our-orchestras#h.qbkvhbnyuhsc" target="_blank" rel="noopener">PACO Sinfonia Orchestra</a></strong>
+                <span>Violin, 2025–26. Concertmaster, March 2026</span>
               </li>
               <li>
-                <strong
-                  ><a
-                    href="https://www.pacomusic.org/programs/student-leadership-council"
-                    target="_blank"
-                    rel="noopener"
-                    >PACO Pedagogical Ambassadors</a
-                  ></strong
-                ><span>Mentor to younger musicians · 2025–present</span>
+                <strong><a href="https://www.pacomusic.org/programs/student-leadership-council" target="_blank" rel="noopener">PACO Pedagogical Ambassadors</a></strong>
+                <span>Mentor to younger musicians, 2025 to present</span>
               </li>
               <li>
-                <strong
-                  ><a
-                    href="https://wilcox.santaclarausd.org/academics/departments/visual-and-performing-arts"
-                    target="_blank"
-                    rel="noopener"
-                    >Adrian Wilcox High School</a
-                  ></strong
-                ><span>Principal viola, Advanced Orchestra · 2025–present</span>
+                <strong><a href="https://wilcox.santaclarausd.org/academics/departments/visual-and-performing-arts" target="_blank" rel="noopener">Adrian Wilcox High School</a></strong>
+                <span>Principal viola, Advanced Orchestra, 2025 to present</span>
               </li>
             </ul>
           </div>
@@ -225,29 +189,21 @@
 
       <section id="contact">
         <div class="wrap">
-          <div class="section-head"><h2>Contact</h2></div>
+          <h2>Contact</h2>
           <div class="contact">
-            <div>
-              <h3>Get in touch</h3>
-              <p>
-                For lessons, performances, private events or chamber
-                collaborations, send a short note below. Every message is read
-                personally, with a reply within a few days.
-              </p>
-            </div>
+            <p class="note">
+              For performances, private events, lessons and chamber
+              collaborations, please send a note. Replies usually come within a
+              few days.
+            </p>
             <form data-contact>
               <div class="row">
-                <label
-                  ><span class="label">Name</span><input name="name" autocomplete="name" required
-                /></label>
-                <label
-                  ><span class="label">Email</span
-                  ><input name="email" type="email" autocomplete="email" required
-                /></label>
+                <label><span>Name</span><input name="name" autocomplete="name" required /></label>
+                <label><span>Email</span><input name="email" type="email" autocomplete="email" required /></label>
               </div>
               <div class="row">
                 <label
-                  ><span class="label">Reaching out about</span>
+                  ><span>Reaching out about</span>
                   <select name="topic">
                     <option>Lessons</option>
                     <option>A performance or event</option>
@@ -255,23 +211,13 @@
                     <option>Something else</option>
                   </select>
                 </label>
-                <label
-                  ><span class="label">Event date (if any)</span
-                  ><input name="date" placeholder="e.g. June 14, 2027"
-                /></label>
+                <label><span>Event date (if any)</span><input name="date" placeholder="e.g. June 14, 2027" /></label>
               </div>
-              <label
-                ><span class="label">Message</span
-                ><textarea name="message" required></textarea>
-              </label>
+              <label><span>Message</span><textarea name="message" required></textarea></label>
               <button type="submit">Send message</button>
               <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
-              <p class="form-done" hidden>
-                Thank you. Your message is on its way, and you'll hear back within a few days.
-              </p>
-              <p class="form-fail" hidden>
-                Sorry, the message couldn't be sent. Please check your connection and try again.
-              </p>
+              <p class="form-done" hidden>Thank you. Your message has been sent.</p>
+              <p class="form-fail" hidden>Sorry, the message couldn't be sent. Please check your connection and try again.</p>
             </form>
           </div>
         </div>
@@ -279,11 +225,13 @@
     </main>
 
     <footer>
-      <span class="wordmark">Gavin Chang</span>
-      <nav class="footer-nav">
-        <a href="#listen">Listen</a><a href="events.html">Events</a><a href="#contact">Contact</a>
-      </nav>
-      Violin &amp; Viola · © <span data-year>2026</span>
+      <div class="wrap">
+        <span class="wordmark">Gavin Chang</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#listen">Listen</a><a href="events.html">Events</a><a href="#contact">Contact</a>
+        </nav>
+        <span>© <span data-year>2026</span></span>
+      </div>
     </footer>
 
     <script src="assets/form.js"></script>
