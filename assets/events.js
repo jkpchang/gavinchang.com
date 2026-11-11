@@ -3,7 +3,7 @@
 // Every <li class="event"> carries data-date="YYYY-MM-DD" (and data-start when the
 // time is known). On page load, an event counts as past 3 hours after data-start,
 // or, with no start time, from the day after its date (visitor's time zone). Past
-// events are moved into "Past · <season>" groups (seasons run Aug–Jul, e.g.
+// events are moved into "<season> Season" groups (seasons run Aug–Jul, e.g.
 // 2026–27), upcoming ones are sorted soonest first, past ones newest first, and
 // anything marked .upcoming-only (e.g. ticket links) is removed once it's past.
 //
@@ -79,6 +79,6 @@
 
   Object.keys(past).sort().reverse().forEach(function (s) {
     var items = past[s].sort(function (a, b) { return a.dataset.date < b.dataset.date ? 1 : -1; });
-    main.appendChild(group('Past · ' + s + ' Season', items));
+    main.appendChild(group(s + ' Season', items));
   });
 })();
