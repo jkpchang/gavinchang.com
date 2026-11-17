@@ -1,8 +1,8 @@
-// Keeps "played violin for seven years" accurate without editing the bio.
+// Keeps "played violin for six years" accurate without editing the bio.
 //
-// <span data-years-since="2019">seven</span> means Gavin started in the fall of
-// 2019. The count goes up by one each September, at the start of the school year
-// (so fall 2019 → Nov 2026 = seven). The text inside the span is the fallback
+// <span data-years-since="2020">six</span> means Gavin started in the fall of
+// 2020. The count goes up by one each September, at the start of the school year
+// (so fall 2020 → Nov 2026 = six). The text inside the span is the fallback
 // shown if JavaScript is off; it's fine for it to fall a little behind.
 (function () {
   var words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
