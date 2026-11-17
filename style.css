@@ -117,13 +117,13 @@ section { padding: clamp(72px, 9vw, 120px) 0; }
 /* about */
 .about { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(48px, 7vw, 104px); }
 .bio p { font: 400 1.3rem/1.65 var(--sans); margin: 0 0 1.15em; max-width: 36em; }
-.facts { list-style: none; margin: 6px 0 0; padding: 0; }
-.facts li { padding: 16px 0; border-bottom: 1px solid var(--line); }
-.facts li:first-child { padding-top: 0; }
-.facts strong { display: block; font-weight: 500; }
-.facts strong a { text-decoration: none; }
-.facts strong a:hover { text-decoration: underline; }
-.facts span { display: block; color: var(--muted); font-size: 0.92rem; }
+.repertoire h3 { margin: 0 0 18px; font-size: 1.5rem; color: var(--gold); padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.repertoire .rep-group { margin: 22px 0 8px; font-size: 0.95rem; font-style: italic; color: var(--muted); }
+.repertoire .rep-group:first-of-type { margin-top: 0; }
+.repertoire ul { list-style: none; margin: 0; padding: 0; }
+.repertoire li { padding: 7px 0; line-height: 1.35; }
+.repertoire strong { display: block; font-weight: 600; color: var(--gold-soft); }
+.repertoire span { display: block; color: var(--muted); font-size: 0.95rem; }
 
 /* contact */
 .contact { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(40px, 7vw, 104px); }
@@ -196,9 +196,8 @@ footer .wordmark .logo { width: auto; height: 36px; }
 .hero .kicker { color: var(--gold); }
 .hero .role { color: var(--ink); }
 .section-head h2, .page-title h1, .events-group > .label { color: var(--gold); }
-.bio a, .facts strong a, .contact a { color: var(--gold-soft); text-decoration-color: rgba(212, 163, 115, 0.5); }
-.bio a:hover, .facts strong a:hover { color: var(--gold); }
-.facts strong { color: var(--gold-soft); }
+.bio a, .contact a { color: var(--gold-soft); text-decoration-color: rgba(212, 163, 115, 0.5); }
+.bio a:hover { color: var(--gold); }
 .caption strong, .dark .caption strong { color: var(--gold-soft); }
 .event time { color: var(--gold); }
 .event h3 { color: var(--ink); }
